@@ -1,0 +1,37 @@
+body {
+    font-family: 'Style Script', cursive;
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    background-image: url("images/agujero-negro-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock-container {
+    text-align: center;
+}
+
+#hour-value {
+    color: #fd948e;
+    font-size: 4em;
+}
+
+#date-value {
+    color: #ffc9c6;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 900px) {
+    span {
+        font-size: 2.5em;
+    }
+  }
